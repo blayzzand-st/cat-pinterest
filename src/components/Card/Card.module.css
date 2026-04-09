@@ -9,8 +9,8 @@
     }
 
     &:hover {
-        transform: scale(110%);
-        box-shadow: 0 9px 7px rgba(0, 0, 0, 0.3);
+        transform: scale(1.1);
+        box-shadow: 0 9px 7px rgba(0, 0, 0, 0.33);
 
         .likeBtn { display: block }
     }
@@ -24,7 +24,7 @@
     transition: all 0.1s ease-in-out;
 
     &:active {
-        transform: scale(90%);
+        transform: scale(0.9);
     }
 }
 
