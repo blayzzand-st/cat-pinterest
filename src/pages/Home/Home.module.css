@@ -1,0 +1,11 @@
+.catGrid {
+    flex: 1;
+    grid-template-columns: repeat(auto-fill, 17rem);
+    justify-content: center;
+    gap: 3rem;
+}
+
+.wrapper {
+    scrollbar-width: none;
+    &::-webkit-scrollbar { display: none; }
+}
